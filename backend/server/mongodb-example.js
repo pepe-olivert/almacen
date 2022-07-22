@@ -1,7 +1,7 @@
 
 const mongodb = require('mongodb');
 
-const url = "mongodb://pepe:qw7as4zx1@localhost:27017";
+const url = "mongodb://usuario:contraseña@localhost:27017";
 const client = new mongodb.MongoClient(url, { useUnifiedTopology: true });
 
 async function main() {
